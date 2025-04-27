@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contáctanos - Pollo Campero</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    .contenido {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .contenido h1 {
+      color: #D92027;
+      margin-bottom: 10px;
+    }
+
+    .contenido p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .formulario {
+      background-color: white;
+      border: 2px solid #FFCD38;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: left;
+    }
+
+    .formulario label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #D92027;
+    }
+
+    .formulario input,
+    .formulario textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .formulario button {
+      background-color: #D92027;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .formulario button:hover {
+      background-color: #FFCD38;
+      color: #D92027;
+    }
+
+    .informacion-contacto {
+      margin-top: 40px;
+      text-align: left;
+    }
+
+    .informacion-contacto h2 {
+      color: #D92027;
+      margin-bottom: 10px;
+    }
+
+    .informacion-contacto p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .informacion-contacto a {
+      color: #D92027;
+      text-decoration: none;
+    }
+
+    .informacion-contacto a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenido">
+    <h1>Contáctanos</h1>
+    <p>¿Tienes preguntas, comentarios o sugerencias? ¡Escríbenos!</p>
+
+    <div class="formulario">
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div class="informacion-contacto">
+      <h2>Información de contacto</h2>
+      <p><strong>Teléfono:</strong> <a href="tel:+50224107000">+502 2410 7000</a></p>
+      <p><strong>Dirección:</strong> Carretera al Atlántico Km. 5, Zona 17, Metronorte, Ciudad de Guatemala</p>
+      <p><strong>Horario de atención:</strong> Lunes a Domingo, 7:00 AM – 10:00 PM</p>
+      <p><strong>Sitio web:</strong> <a href="https://www.campero.com/gt/contacto" target="_blank">www.campero.com/gt/contacto</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
+

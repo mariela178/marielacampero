@@ -1,0 +1,22 @@
+<html lang="es">
+<html>
+<head>
+<title>inicio</title>
+<style>
+  background-repeat: no-repeat;
+  background-size: cover; 
+</head>
+</style>
+<body>
+<hr color = "pink" size = "15" aling = "center">
+<font face="arial" size="20" color = "Black" />
+<u><i>DATOS</i></u><br> 
+<b>Nombre:</b><br>
+<i>pollo campero</i><br> 
+<b>Número de teléfono: </b><br>
+<i>4192-6735</i><br> 
+<b>Correo electronico:</b><br>
+<i>Ortizmayquelin95@gmail.com</i><br> 
+<a href="index.html" target="_blank">Return</a><br>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pollo Campero - Inicio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    .contenido {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .contenido h1 {
+      color: #D92027;
+    }
+
+    .contenido p {
+      font-size: 18px;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .producto {
+      background-color: white;
+      border: 2px solid #FFCD38;
+      border-radius: 10px;
+      width: 200px;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.05);
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .producto h3 {
+      margin: 10px 0 5px;
+      color: #D92027;
+    }
+
+    .producto p {
+      color: #444;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenido">
+    <h1>¡Bienvenido a Pollo Campero!</h1>
+    <p>Disfruta del mejor pollo frito con sabor único.</p>
+  </div>
+
+  <div class="productos">
+    <div class="producto">
+      <img src="img/pollofrito.png" alt="Pollo Frito">
+      <h3>Pollo Frito</h3>
+      <p>Crujiente y jugoso</p>
+      <p>Q.35.00</p>
+    </div>
+
+    <div class="producto">
+      <img src="img/pollo4.png" alt="Combo Familiar">
+      <h3>Combo Familiar</h3>
+      <p>Para 4 personas</p>
+      <p>Q.49.00</p>
+    </div>
+
+    <div class="producto">
+      <img src="img/pollito.png" alt="Camperitos">
+      <h3>Camperitos</h3>
+      <p>Pequeños bocados</p>
+      <p>Q.25.00</p>
+    </div>
+
+    <div class="producto">
+      <img src="img/ala.png" alt="Alitas Picantes">
+      <h3>Alitas Picantes</h3>
+      <p>Con salsa especial</p>
+      <p>Q.45.00</p>
+    </div>
+  </div>
+
+</body>
+</html>
